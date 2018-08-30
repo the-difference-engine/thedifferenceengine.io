@@ -1,0 +1,23 @@
+{
+  "name": "thedifferenceengine.io",
+  "version": "0.1.0",
+  "description": "Brochure site for The Difference Engine",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Zach Garwood <iam@zachgarwood.com> (http://zachgarwood.com)"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "emotion": "^9.2.8",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.8"
+  }
+}
