@@ -1,11 +1,20 @@
-import styled from 'react-emotion';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import styled from 'react-emotion'
+import { Navbar, NavbarBrand } from 'reactstrap'
 
-const Header = styled('h1')`
+const Brand = styled('span')`
   color: blue;
 `
 
 const Index = () => (
-  <Header>Hello, Difference Engine!</Header>
+  <div>
+    <Navbar>
+      <NavbarBrand>
+        <Brand>The Difference Engine</Brand>
+      </NavbarBrand>
+    </Navbar>
+    <h1>Coming Soon!</h1>
+  </div>
 )
 
 export default Index
