@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributors": [
-    "Zach Garwood <iam@zachgarwood.com> (http://zachgarwood.com)"
+    "Zach Garwood <iam@zachgarwood.com> (http://zachgarwood.com)",
+    "Timothy (Manu) Meixell <misternu@gmail.com> (http://timothymeixell.com)"
   ],
   "license": "ISC",
   "dependencies": {
